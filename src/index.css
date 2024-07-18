@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+
+body,select {
+ 
+  color: #aaa;
+  background-color: #272b30;
+font-family: "Montserrat Alternates";
+}
+
+select{
+  border: none !important;
+}
+.navbar-brand img{
+  width: 70px;
+}
+.navbar{
+  background-color: #272b30!important;
+}
+.join-free{
+  border:1px solid ;
+  color: #4799eb;
+  border-color: #4799eb;
+  
+}
+.gaming-img{
+  background-image: url(../src/Images/gaming.jpg);
+  background-size:100% 100%;
+
+}
+
+.item{
+background-color: #32383e;
+height: 80vh;
+
+  
+}
+/* body{
+  overflow: scroll !important;
+} */
+
+input{
+  background-color: #272b30 !important;
+  border: none !important;
+  color: white !important;
+}
+form button{
+  background-color: #272b30 !important;
+  border: none !important;
+
+
+}
+hr{
+  color: #272b30;
+}
+form .link{
+  color: #4799eb;
+  text-decoration: none;
+  background-color: transparent;
+}
+.img-container img{
+  width: 100px;
+
+}
+
+li{
+  list-style: none;
+
+}
+span {
+  cursor: pointer;
+}
+
+.home-sec{
+    background:url(http://routeegypt.com/GameOver/paladins.b44d33d6e7ee1ba8.png) ;
+    background-repeat: no-repeat;
+    background-color: #1c1e22;
+    background-position: top;
+    background-size: contain;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0,0,0,.6);
+    padding: 4rem 2rem;
+    -webkit-border-radius:.3rem;
+    -moz-border-radius:.3rem;
+    -ms-border-radius:.3rem;
+    -o-border-radius:.3rem;
+}
+.lead{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.free{
+
+    color: #fff;
+    background-color: #4799eb;
+
+}
+.game{
+  background-color: #333039;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  cursor: pointer;
+}
+.game:hover{
+ transform: scale(1.04);
+ -webkit-transform: scale(1.04);
+ -moz-transform: scale(1.04);
+ -ms-transform: scale(1.04);
+ -o-transform: scale(1.04);
+}
+.bg-blue{
+  color: #49acff;
+  font-weight: bold;
+}
+a,a:hover{
+  color: #aaa !important;
+}
+.game-desc{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width:150px;
+}
+.play, .play:hover{
+  background-image: linear-gradient(#4799eb,#4799eb 60%,#49acff);
+  background-repeat: no-repeat;
+  filter: none;
+  color: #fff !important;
+  background-color: #4799eb;
+  border-color: #4799eb;
+}
+.blue{
+  background-color: #4799eb !important;
+  padding: 1.5px !important;
+}
+
+.w-90{
+  width: 90%;
+}
+li{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media screen  and (max-width:990px){
+  .logout{
+    text-align: center;
+    margin-top: 10px;
+  }
+}

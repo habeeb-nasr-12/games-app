@@ -1,0 +1,8 @@
+.contentStyle{
+    background-color: #32383E;
+    cursor: pointer;
+    transition: all .5s;
+}
+.contentStyle:hover{
+    transform: scale(1.05);
+}
